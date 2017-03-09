@@ -1,6 +1,7 @@
 {
     "env": {
-        "browser": true
+        "browser": true,
+        "qunit": true
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -19,6 +20,9 @@
         "semi": [
             "error",
             "always"
+        ],
+        "no-console": [
+            0
         ]
     }
 }

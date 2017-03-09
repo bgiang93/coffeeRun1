@@ -11,7 +11,7 @@
 //     var myTruck = new Truck('ncc-1701', new DataStore());
 //     window.myTruck = myTruck;
 // })(window);
-
+var App = window.App || {};
 var ds = new App.DataStore();
 
 QUnit.test('Add Test', function(assert) {
